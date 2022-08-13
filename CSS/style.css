@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 120px;
+    background-image: url(../images/background\ menu@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 10px 15px rgb(60, 40, 0);
+    
+}
+
+img{
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+nav{
+    float: right;
+    margin-right: 40px;
+}
+
+.menu{
+    display: inline;
+    line-height: 120px;
+    font-size: 1vw;
+    font-weight: bold;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+a{
+    padding: 2px;
+    text-decoration: none;
+    color: rgb(82, 22, 22);
+}
+
+.linkmenu:hover{
+    color: goldenrod;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+h1{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 65px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(2, 88, 88);
+}
+
+.formcontainer{
+    margin-top: 40px;
+    margin-left: 200px;
+    padding: 15px;
+    background-color: rgba(211, 104, 104, 0.800);
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+h3{
+    text-align: center;
+    color: #fffad3;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 7,5px;
+    border: none;
+    padding: 10px;
+}
+
+input[type="submit"]{
+    background-color: rgb(167, 79, 79);
+    color: white;
+    font-weight: bold;
+}
+
+section{
+    height: 1080px;
+    background-image: url(../images/entrega-gratis.png);
+    background-size:cover;
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(167, 79, 79);
+}
+
+.infooter{
+    display: inline;
+    line-height: 50px;
+    font-size: 1vw;
+    font-weight: bold;
+    margin: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.iconimg{
+    margin: 0px;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.footerlist{
+    position: absolute;
+    left: 18%; 
+}
+
+
+
+
+
+
+
+
