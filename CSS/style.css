@@ -18,7 +18,7 @@ img{
     margin-left: 50px;
 }
 
-nav{
+.menulist{
     float: right;
     margin-right: 40px;
 }
@@ -88,6 +88,7 @@ section{
     height: 1080px;
     background-image: url(../images/entrega-gratis.png);
     background-size:cover;
+    background-position: right;
 }
 
 footer{
@@ -115,6 +116,90 @@ footer{
 .footerlist{
     position: absolute;
     left: 18%; 
+}
+
+@media screen and (max-width: 1210px){
+
+    header{
+        padding: 6px;
+        height: 212px;
+        width: 100%;
+        background-image: url(../images/background\ menu@2x.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 10px 15px rgb(60, 40, 0);
+        text-align: center;
+    }
+
+    img{
+        height: 70px;
+        display: block;
+        margin: auto;
+    }
+
+    .menulist{
+        float: none; 
+        margin: 0;
+    }
+    
+    .menu{
+        line-height: none;
+        font-size: 16px;
+        font-weight: bold;
+        margin: none;
+        font-family: Arial, Helvetica, sans-serif; 
+        line-height: 30px;
+    }
+
+    .linkmenu{
+        display: block;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .linkmenu:hover{
+        color: goldenrod;
+        background-image: none;
+    }
+
+    section{
+        text-align: center;
+    }
+
+    h1{
+        display: inline-block;
+        margin-top: 400px;
+        margin-left: 0px;
+        font-size: 46px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(2, 88, 88);
+    }
+
+    .formcontainer{
+        margin: auto;
+        margin-top: 35px;
+    }
+
+    footer{
+        text-align: center;
+        height: 80px;
+    }
+
+    .footerlist{
+        width: 100%;
+        left: 0px;
+    }
+    
+    .infooter{
+        display: inline-block;
+        margin: 0px;
+        line-height: 0px;
+    }
+
+    .iconimg{
+        padding: 10px;
+
+    }
 }
 
 
